@@ -49,7 +49,7 @@ module.exports = class TestBlockMiddleware {
 
   createMiddleware() {
     return (req, res, next, end) => {
-      if (req.method !== 'eth_getBlockByNumber') return next()
+      if (req.method !== 'vap_getBlockByNumber') return next()
       const blockRef = req.params[0]
       if (blockRef === 'latest') {
         res.result = this.currentBlock

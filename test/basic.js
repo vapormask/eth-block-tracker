@@ -1,6 +1,6 @@
 const test = require('tape')
 const RpcBlockTracker = require('../dist/index')
-const JsonRpcEngine = require('json-rpc-engine')
+const JsonRpcEngine = require('@vapormaask/json-rpc-engine')
 const TestBlockMiddleware = require('./util/testBlockMiddleware')
 
 test('basic tests - constructor', (t) => {
