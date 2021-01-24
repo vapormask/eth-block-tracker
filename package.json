@@ -1,7 +1,7 @@
 {
   "name": "vap-block-tracker",
   "namespace": "vapormask",
-  "version": "2.2.2",
+  "version": "2.2.2-a",
   "description": "This module walks the Vapory blockchain, keeping track of the latest block. It uses a web3 provider as a data source and will continuously poll for the next block.",
   "main": "dist/index.js",
   "scripts": {
